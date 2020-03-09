@@ -26,6 +26,5 @@ For Each query in queries
 	return = WshShell.Run("cmd /c wmic "&query&" list full /format:csv > %cd%/csv/"&query&".csv ",0,true)
 Next
 
-'Greetz @subTee, @c3p70r, soc.team, @washalsec, kellyekenorjiude, arpanraval
 WScript.Echo ""
 WScript.Echo "[+] Done!"
